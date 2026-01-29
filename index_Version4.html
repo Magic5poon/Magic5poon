@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lagunova | Obras, Remodelações e Investimento Imobiliário</title>
+  <meta name="description" content="Lagunova - Empresa familiar de obras domésticas, remodelações e investimento imobiliário na Zona Centro e Lisboa." />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero" role="banner">
+    <nav class="topnav" aria-label="Navegação principal">
+      <a href="#servicos">Serviços</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="hero-inner">
+      <img src="images/logo.png" alt="Logótipo Lagunova" class="logo" />
+      <h1>Lagunova</h1>
+      <p>Obras, remodelações e investimento imobiliário na Zona Centro e Lisboa.</p>
+    </div>
+  </header>
+
+  <main>
+    <section id="intro" class="intro" aria-labelledby="intro-title">
+      <h2 id="intro-title">Bem-vindo à Lagunova</h2>
+      <p>Empresa familiar dedicada a obras domésticas, remodelações e investimentos imobiliários. Trabalhamos com foco na qualidade, prazo e segurança.</p>
+    </section>
+
+    <section id="servicos" class="section services-wrap" aria-labelledby="servicos-title">
+      <h2 id="servicos-title">Serviços</h2>
+      <div class="services">
+        <article class="card" aria-labelledby="s1">
+          <h3 id="s1">Remodelações</h3>
+          <p>Remodelações de cozinhas, casas de banho e obras integrais com gestão de projeto e acabamentos.</p>
+        </article>
+
+        <article class="card" aria-labelledby="s2">
+          <h3 id="s2">Obras domésticas</h3>
+          <p>Pequenas e médias intervenções, reparações e manutenção residencial.</p>
+        </article>
+
+        <article class="card" aria-labelledby="s3">
+          <h3 id="s3">Investimento Imobiliário</h3>
+          <p>Avaliação, aquisição e reabilitação para arrendamento ou venda.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projetos" class="section" aria-labelledby="projetos-title">
+      <h2 id="projetos-title">Projetos recentes</h2>
+      <p>Exemplos de trabalhos realizados: reabilitação e remodelação de apartamentos de várias tipologias, vivendas, espaços comerciais, armazéns, garagens e outros tipos de imóvel. (Adicione imagens na pasta /images/)</p>
+    </section>
+
+    <section id="contacto" class="section contact" aria-labelledby="contacto-title">
+      <h2 id="contacto-title">Contacto</h2>
+      <p>João Mendes · Telefone: <a href="tel:+351917014326">+351 917 014 326</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <p>© <span id="ano"></span> Lagunova — João Mendes — Todos os direitos reservados.</p>
+  </footer>
+
+  <script>
+    // Atualiza ano no rodapé
+    document.getElementById('ano').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
